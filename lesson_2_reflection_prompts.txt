@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ it creates the .git folder, you need to do it in rder to be able to track versions of the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ the staging area is a place holder for a commit.
+ working directory where the repositories are saved.
+ repository is where all the files are being tracked for versions.
+ 
+ 
