@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
- it creates the .git folder, you need to do it in rder to be able to track versions of the files.
+ it creates the .git folder, you need to do it in order to be able to track versions of the files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
@@ -8,4 +8,23 @@ How is the staging area different from the working directory and the repository?
  working directory where the repositories are saved.
  repository is where all the files are being tracked for versions.
  
+How can you use the staging area to make sure you have one commit per logical change?
+
+ using the diff to compare what has being changes from working directory on staging area, and only adding those ready for commit in the staging area (git add).
+ 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ when you work on an experimental feature, etc.
+ 
+How do the diagrams help you visualize the branch structure?
+
+ it help by visualizing it. remembering that a branch that is not committed can be lost.
+ 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ in a 3rd branch,to understand parenting.
+ 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ 
+ pros. we have backups, cons. we cannot decide what to keep.
  
